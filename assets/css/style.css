@@ -24,3 +24,12 @@
 @media (max-width:620px){.shell{width:min(var(--shell),calc(100% - 34px))}h1{font-size:3.8rem}h2{font-size:2.9rem}.brand-text{font-size:.95rem}.brand-text span{font-size:.54rem}.hero-grid{padding-top:58px}.hero h1{font-size:clamp(3.5rem,14.1vw,5.2rem)}.hero .intro{font-size:1rem}.hero-graphic img{height:295px}.hero-foot-inner{align-items:start}.hero-foot div{gap:10px 19px}.section-header{margin-bottom:28px}.grid-3,.grid-2,.award-highlight,.community-grid,.award-list,.service-columns,.skill-groups{grid-template-columns:1fr}.grid-3 .research-card:last-child{grid-column:auto}.research-card>img{height:210px}.featured-content{padding:28px}.featured-content h2{font-size:2.7rem}.featured-art img{height:230px}.process-item{grid-template-columns:45px 1fr;gap:8px}.page-hero{padding:64px 0 74px}.page-hero h1{font-size:clamp(3.4rem,13vw,5rem)}.page-hero p{font-size:1rem}.page-hero .bread{margin-bottom:21px}.pub{grid-template-columns:1fr;gap:5px;padding:26px 2px}.pub-year{font-size:.9rem;font-family:inherit;font-weight:780}.pub-status{justify-self:start}.pub-title{font-size:1.27rem}.filter-panel{padding:14px;gap:12px}.filter-tabs{gap:3px}.filter-button{padding:8px 11px;font-size:.76rem}.footer-grid{grid-template-columns:1fr 1fr;gap:30px}.footer-grid>div:first-child{grid-column:span 2}.cv-entry{grid-template-columns:1fr;gap:7px}.cv-block{padding:23px}.contact-email{font-size:clamp(1.4rem,6vw,2rem)}}
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation-duration:.01ms!important;transition-duration:.01ms!important}}
 @media print{.site-header,.site-footer,.cta-band,.btn,.page-hero .bread,.filter-panel,.pub-actions{display:none!important}body{background:#fff}.page-hero{padding:10px 0;background:#fff;color:#111}.page-hero h1{font-size:2rem}.page-hero p{color:#555}.section{padding:16px 0}.cv-block{break-inside:avoid;border:none;padding:0}.cv-entry{break-inside:avoid}.shell{width:100%}}
+.brand-logo {
+  width: 44px;
+  height: 44px;
+  display: block;
+  object-fit: contain;
+  border-radius: 12px;
+  flex-shrink: 0;
+}
+
